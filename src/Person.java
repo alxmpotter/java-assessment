@@ -31,8 +31,7 @@ public class Person implements Greeter {
 
     @Override
     public void sayHello() {
-        System.out.println("Hello from " + firstName + lastName);
+        System.out.println("Hello from " + getFirstName() + getLastName());
     }
-
 
 }

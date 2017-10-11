@@ -3,7 +3,7 @@ public class User extends Person {
 
     public User(String first, String last){
         super(first, last);
-        this.isAdmin = true;
+        this.isAdmin = isAdmin;
     }
 
 //    public boolean isAdmin(){
